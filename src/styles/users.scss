@@ -1,0 +1,40 @@
+@mixin tableCell {
+  border: 1px solid $table-border-color;
+  padding: 10px;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  td {
+    @include tableCell;
+  }
+  th {
+    text-align: left;
+    @include tableCell;
+  }
+  tr {
+    .avatar-cell {
+      width: 30%;
+      .user-avatar {
+        width: 100px;
+      }
+    }
+    cursor: pointer;
+  }
+}
+
+.table-navigation {
+  padding: 20px 0 20px;
+  text-align: right;
+  .navigation-button {
+    color: $navigation-link-color;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .current-page-number {
+    display: inline-block;
+    padding: 5px;
+    font-weight: 600;
+  }
+}

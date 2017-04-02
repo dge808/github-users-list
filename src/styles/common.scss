@@ -1,0 +1,51 @@
+$height: 100%;
+$font-size: 14px;
+$background-color: #DBE5ED;
+$font-light: 'Montserrat Light', arial;
+$font-bold: 'Montserrat', sans-serif;
+$text-color: #294B65;
+$table-border-color: #617A8E;
+$link-color: #B09B80;
+$navigation-link-color: #56776B;
+
+body {
+  font-family: $font-light;
+  color: $text-color;
+  min-height: $height;
+  position: relative;
+  background-color: $background-color;
+}
+
+html {
+  height: $height;
+  font-size: $font-size;
+}
+
+a {
+  color: $link-color;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.content-container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.page-header {
+  text-transform: uppercase;
+}
+
+.loader {
+  padding-top: 30%;
+  margin: 0 auto;
+  min-width: 200px;
+  min-height: 200px;
+  background-image: url('/../img/loader.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+}

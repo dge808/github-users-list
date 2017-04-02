@@ -1,0 +1,44 @@
+exports[`Table Navigation(snapshot) should match Table Navigation snapshot 1`] = `
+<div
+  className="table-navigation">
+  <span
+    className="navigation-button"
+    onClick={[Function]}
+    style={null}>
+    < < Previous
+  </span>
+  <p
+    className="current-page-number">
+    Current Page: 
+    2
+  </p>
+  <span
+    className="navigation-button"
+    onClick={[Function]}>
+    Next > >
+  </span>
+  <p>
+    Users per page:
+    <select
+      onChange={undefined}
+      value={25}>
+      <option
+        value={10}>
+        10
+      </option>
+      <option
+        value={25}>
+        25
+      </option>
+      <option
+        value={50}>
+        50
+      </option>
+      <option
+        value={100}>
+        100
+      </option>
+    </select>
+  </p>
+</div>
+`;

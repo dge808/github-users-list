@@ -1,0 +1,47 @@
+exports[`User Page(snapshot) should match User Page snapshot 1`] = `
+<main
+  className="content-container">
+  <h1
+    className="page-header">
+    Alina
+  </h1>
+  <div
+    className="current-user-info">
+    <img
+      className="user-avatar"
+      src={undefined} />
+    <div
+      className="about-user">
+      <p>
+        followers: 
+        2
+      </p>
+      <p>
+        followers: 
+        2
+      </p>
+      <p>
+        created_at: 
+        July 31st 2015
+      </p>
+      <p>
+        email: 
+        dge808@gmail.com
+      </p>
+      <p>
+        location: 
+        Ukraine
+      </p>
+      
+    </div>
+  </div>
+  <a
+    className="go-back-link"
+    onClick={[Function]}
+    style={Object {}}>
+    Go back to users list
+  </a>
+  <div
+    className="clearfix" />
+</main>
+`;

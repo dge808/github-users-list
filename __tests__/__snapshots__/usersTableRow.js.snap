@@ -1,0 +1,24 @@
+exports[`User Table Row(snapshot) should match Users Table Row snapshot 1`] = `
+<tr
+  onClick={[Function]}>
+  <td
+    className="avatar-cell">
+    <img
+      alt={undefined}
+      className="user-avatar"
+      src={undefined} />
+  </td>
+  <td
+    style={
+      Object {
+        "width": "35%",
+      }
+    } />
+  <td
+    style={
+      Object {
+        "width": "35%",
+      }
+    } />
+</tr>
+`;

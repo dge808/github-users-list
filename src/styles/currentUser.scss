@@ -1,0 +1,18 @@
+.current-user-info {
+  display: flex;
+  display: -webkit-flex;
+  .user-avatar {
+    max-width: 400px;
+    height: auto;
+  }
+  .about-user {
+    padding: 0 20px;
+  }
+}
+
+.go-back-link {
+  float: right;
+  color: $navigation-link-color;
+  text-transform: uppercase;
+  font-weight: 600;
+}

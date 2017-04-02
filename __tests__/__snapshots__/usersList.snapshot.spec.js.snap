@@ -1,0 +1,348 @@
+exports[`Users List(snapshot) should match Users List snapshot 1`] = `
+<main
+  className="content-container">
+  <h1
+    className="page-header">
+    Users List
+  </h1>
+  <div
+    className="table-navigation">
+    <span
+      className="navigation-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "not-allowed",
+        }
+      }>
+      < < Previous
+    </span>
+    <p
+      className="current-page-number">
+      Current Page: 
+      1
+    </p>
+    <span
+      className="navigation-button"
+      onClick={[Function]}>
+      Next > >
+    </span>
+    <p>
+      Users per page:
+      <select
+        onChange={undefined}
+        value={10}>
+        <option
+          value={10}>
+          10
+        </option>
+        <option
+          value={25}>
+          25
+        </option>
+        <option
+          value={50}>
+          50
+        </option>
+        <option
+          value={100}>
+          100
+        </option>
+      </select>
+    </p>
+  </div>
+  <table
+    className="users-table">
+    <thead>
+      <tr>
+        <th
+          style={
+            Object {
+              "width": "30%",
+            }
+          }>
+          Avatar
+        </th>
+        <th
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          Login Name
+        </th>
+        <th
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          Profile Link
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        onClick={[Function]}>
+        <td
+          className="avatar-cell">
+          <img
+            alt="mojombo"
+            className="user-avatar"
+            src="https://avatars3.githubusercontent.com/u/1?v=3" />
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          mojombo
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          https://github.com/mojombo
+        </td>
+      </tr>
+      <tr
+        onClick={[Function]}>
+        <td
+          className="avatar-cell">
+          <img
+            alt="defunkt"
+            className="user-avatar"
+            src="https://avatars3.githubusercontent.com/u/2?v=3" />
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          defunkt
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          https://github.com/defunkt
+        </td>
+      </tr>
+      <tr
+        onClick={[Function]}>
+        <td
+          className="avatar-cell">
+          <img
+            alt="pjhyett"
+            className="user-avatar"
+            src="https://avatars3.githubusercontent.com/u/3?v=3" />
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          pjhyett
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          https://github.com/pjhyett
+        </td>
+      </tr>
+      <tr
+        onClick={[Function]}>
+        <td
+          className="avatar-cell">
+          <img
+            alt="wycats"
+            className="user-avatar"
+            src="https://avatars3.githubusercontent.com/u/4?v=3" />
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          wycats
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          https://github.com/wycats
+        </td>
+      </tr>
+      <tr
+        onClick={[Function]}>
+        <td
+          className="avatar-cell">
+          <img
+            alt="ezmobius"
+            className="user-avatar"
+            src="https://avatars3.githubusercontent.com/u/5?v=3" />
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          ezmobius
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          https://github.com/ezmobius
+        </td>
+      </tr>
+      <tr
+        onClick={[Function]}>
+        <td
+          className="avatar-cell">
+          <img
+            alt="ivey"
+            className="user-avatar"
+            src="https://avatars3.githubusercontent.com/u/6?v=3" />
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          ivey
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          https://github.com/ivey
+        </td>
+      </tr>
+      <tr
+        onClick={[Function]}>
+        <td
+          className="avatar-cell">
+          <img
+            alt="evanphx"
+            className="user-avatar"
+            src="https://avatars3.githubusercontent.com/u/7?v=3" />
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          evanphx
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          https://github.com/evanphx
+        </td>
+      </tr>
+      <tr
+        onClick={[Function]}>
+        <td
+          className="avatar-cell">
+          <img
+            alt="vanpelt"
+            className="user-avatar"
+            src="https://avatars2.githubusercontent.com/u/17?v=3" />
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          vanpelt
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          https://github.com/vanpelt
+        </td>
+      </tr>
+      <tr
+        onClick={[Function]}>
+        <td
+          className="avatar-cell">
+          <img
+            alt="wayneeseguin"
+            className="user-avatar"
+            src="https://avatars3.githubusercontent.com/u/18?v=3" />
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          wayneeseguin
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          https://github.com/wayneeseguin
+        </td>
+      </tr>
+      <tr
+        onClick={[Function]}>
+        <td
+          className="avatar-cell">
+          <img
+            alt="brynary"
+            className="user-avatar"
+            src="https://avatars3.githubusercontent.com/u/19?v=3" />
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          brynary
+        </td>
+        <td
+          style={
+            Object {
+              "width": "35%",
+            }
+          }>
+          https://github.com/brynary
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+`;
