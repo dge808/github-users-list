@@ -10,10 +10,10 @@ const TableNavigation = ({ onPageChange, currentPage, perPage, onPerPageChange }
               &lt; &lt; Previous
           </span>
             <p class="current-page-number">
-                Current Page: {parseInt(currentPage) + 1}
+                Current Page: {currentPage + 1}
             </p>
             <span class="navigation-button"
-                  onClick={() => onPageChange(parseInt(currentPage) + 1)}>
+                  onClick={() => onPageChange(currentPage + 1)}>
               Next &gt; &gt;
           </span>
 

@@ -22,12 +22,12 @@ class UsersListContainer extends React.Component {
         if (newPageNumber < 0) {
             return false;
         }
-        this.dispatch(currentPageChange(newPageNumber));
+        this.dispatch(currentPageChange(parseInt(newPageNumber)));
         this.getUsers(newPageNumber, this.props.users.perPage);
     };
 
     handlePerPageChange = (event) => {
-        this.dispatch(perPageChange(event.target.value));
+        this.dispatch(perPageChange(parseInt(event.target.value)));
         this.getUsers(this.props.users.currentPage, event.target.value);
     };
 
