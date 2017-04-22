@@ -1,4 +1,4 @@
-# SWIVL frontend task
+# Frontend task
 A single page application, which allows to get list of github users
 and get detailed information about each of them.
 
